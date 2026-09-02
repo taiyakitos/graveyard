@@ -1,10 +1,12 @@
+
+
 body {
-  font-family: "Courier New";
+  font-family:"Courier New";
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Scale the image to cover the entire container */
   background-attachment: fixed; /* Fix the image in place while scrolling */
   background-color: #7d7ded; /* Fallback color if the image can't load */
-  background-image: linear-gradient(to bottom, #fecc77, #ffeeff);
+  background-image: linear-gradient(to bottom, #4477ff, #00ffff);
 }
 
 p { text-align: center; font-size: 30px; margin-left: 20px;}
@@ -34,7 +36,6 @@ div img { max-width: 100%; height: auto; }
 	display:inline-block;
 	cursor:pointer;
 	color:#008fde;
-	font-family:Courier New;
 	font-size:28px;
 	font-weight:bold;
 	padding:12px 44px;
@@ -50,7 +51,3 @@ div img { max-width: 100%; height: auto; }
 	position:relative;
 	top:1px;
 }
-
-/*typing quirks*/
-
-#Quinzel { color: #ff00ff; text-transform: capitalize; }
