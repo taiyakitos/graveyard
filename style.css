@@ -1,13 +1,17 @@
-
-
 body {
-  font-family:"Courier New";
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-size: cover; /* Scale the image to cover the entire container */
-  background-attachment: fixed; /* Fix the image in place while scrolling */
-  background-color: #7d7ded; /* Fallback color if the image can't load */
-  background-image: linear-gradient(to bottom, #4477ff, #00ffff);
+  font-family: "Press Start 2P", monospace;
+  background-color: #ffffff; /* Fallback color if the image can't load */
+
+   font-smooth: never;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale; 
+
+background-image:  linear-gradient(#ebecff 1.1px, transparent 1.5px), linear-gradient(to right, #ebecff 1.1px, #439cff 1.1px), linear-gradient(to bottom, #0000ff 1.1px, blue 20px);
+background-size: 22px 22px;
+
 }
+
+
 
 p { text-align: center; font-size: 30px; margin-left: 20px;}
 
