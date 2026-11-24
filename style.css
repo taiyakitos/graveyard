@@ -1,8 +1,16 @@
-body {
-  font-family: "Press Start 2P", monospace;
-  background-color: #ffffff; /* Fallback color if the image can't load */
+@font-face {
+  font-family: "8bitoperator";
+  src: url("8bitoperator_jve.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-   font-smooth: never;
+html,
+body {
+  font-family: "8bitoperator", monospace;
+  background-color: #ffffff; /* Fallback color if the image can't load */
+  text-rendering: optimizeSpeed;
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: grayscale; 
 
@@ -23,7 +31,7 @@ a { font-size: 40px; margin-left: 60px; margin-bottom: 60px;}
 
 .fullpage { width: 80%; margin-left: 10%; margin-right: 10%; margin-top: 2%; display: block;}
 
-div { width: 80%; margin-left:10%; margin-right: 10%; display: block; font-family: "Courier New";
+div { width: 80%; margin-left:10%; margin-right: 10%; display: block;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Scale the image to cover the entire container */
   background-attachment: fixed ; /* Fix the image in place while scrolling */
