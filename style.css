@@ -12,9 +12,8 @@ body {
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: grayscale; 
-
-background-image:  linear-gradient(#ebecff 1.1px, transparent 1.5px), linear-gradient(to right, #ebecff 1.1px, #439cff 1.1px), linear-gradient(to bottom, #0000ff 1.1px, blue 20px);
-background-size: 22px 22px;
+  background-image:  linear-gradient(#ebecff 1.1px, transparent 1.5px), linear-gradient(to right, #ebecff 1.1px, #439cff 1.1px), linear-gradient(to bottom, #0000ff 1.1px, blue 20px);
+  background-size: 22px 22px;
 
 }
 
@@ -30,7 +29,7 @@ a { font-size: 40px; margin-left: 60px; margin-bottom: 60px;}
 
 .fullpage { width: 80%; margin-left: 10%; margin-right: 10%; margin-top: 2%; display: block;}
 
-.header { width: 80%; height: auto; margin-left:10%; margin-right: 10%; display: block;
+.header { width: 80%; height: auto; margin-left:10%; margin-right: 0%; display: block;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Scale the image to cover the entire container */
   background-attachment: fixed ; /* Fix the image in place while scrolling */
@@ -63,15 +62,26 @@ div img { max-width: 100%; height: auto; }
 	top:1px;
 }
 
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
 .foot {
-	padding-left: 5%;
-	padding-right:5%;
 	width:100%;
 	height:auto;
-	font-size:25px;
 	background-repeat: no-repeat; /* Prevent the image from repeating */
 	background-size: cover; /* Scale the image to cover the entire container */
 	background-attachment: fixed ; /* Fix the image in place while scrolling */
 	background-color: #ffffff; /* Fallback color if the image can't load */
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap: 16px;
+}
 
+.foot a {
+	font-size: 16px;
+	margin: 0;
 }
