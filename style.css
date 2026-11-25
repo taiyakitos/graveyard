@@ -6,7 +6,6 @@
   font-display: swap;
 }
 
-html,
 body {
   font-family: "8bitoperator", monospace;
   background-color: #ffffff; /* Fallback color if the image can't load */
@@ -19,7 +18,7 @@ background-size: 22px 22px;
 
 }
 
-
+h1, h2, h3, h4, h5, h6 { text-align: center;}
 
 p { text-align: center; font-size: 30px; margin-left: 20px;}
 
@@ -31,7 +30,7 @@ a { font-size: 40px; margin-left: 60px; margin-bottom: 60px;}
 
 .fullpage { width: 80%; margin-left: 10%; margin-right: 10%; margin-top: 2%; display: block;}
 
-div { width: 80%; margin-left:10%; margin-right: 10%; display: block;
+.header { width: 80%; height: auto; margin-left:10%; margin-right: 10%; display: block;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Scale the image to cover the entire container */
   background-attachment: fixed ; /* Fix the image in place while scrolling */
@@ -62,4 +61,17 @@ div img { max-width: 100%; height: auto; }
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.foot {
+	padding-left: 5%;
+	padding-right:5%;
+	width:100%;
+	height:auto;
+	font-size:25px;
+	background-repeat: no-repeat; /* Prevent the image from repeating */
+	background-size: cover; /* Scale the image to cover the entire container */
+	background-attachment: fixed ; /* Fix the image in place while scrolling */
+	background-color: #ffffff; /* Fallback color if the image can't load */
+
 }
